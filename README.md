@@ -11,6 +11,6 @@ Student Info
 =======================
 
 * Name: NguyenAnhDuy
-* ID: BI12-127
+* ID: BI12-127 
 * Group ID: *Your Group ID here*
 
