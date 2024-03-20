@@ -1,0 +1,38 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{hyperref}
+\title{Report.1.tex}
+\author{Nguyen Anh Duy - BI12 127}
+\date{March 2024}
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+The project aim to 
+
+\section{Dataset}
+\subsection{Source}
+The source of the dataset on \href{https://www.kaggle.com/datasets/shayanfazeli/heartbeat}{Kaggle}.
+\subsection{Size and Structure}
+The size of the data set is:
+5 rows × 187 columns
+With the dimension:
+(87554, 187)
+The data is quite clean it doesn't have much null data.
+\section{Implementation}
+I have implemented the model in many steps:
+\begin{enumerate}
+\item Normalized
+\item Split the data into training and validation set
+\item Check the class imbalance
+\item Define a hyper-parameters
+\item Compute the weight, pass the with to WeightedRandomSampler
+\item Design model Architecture
+\item Visualizations
+\item Adjust model
+\end{enumerate}
+
+\end{document}
+
+
